@@ -1,5 +1,5 @@
 import { ApplicationMenu } from '@servicenow/sdk/core'
-import { activity_admin, appCategory } from './menu-category-roles.now'
+import { activity_admin, appCategory } from '../../applicationmenu-sample/src/fluent/menu-category-roles.now'
 
 export const menu = ApplicationMenu({
     $id: Now.ID['My App Menu'],
